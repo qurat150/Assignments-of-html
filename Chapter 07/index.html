@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chapter 07</title>
+</head>
+<body>
+    <h1><ins>FORMS</ins></h1>
+    <form action="">
+        <fieldset>
+            <legend>Your Details:</legend>
+            <label for="fname">Name:</label>
+            <input type="text" placeholder="Your name:"> <br> <br>
+            <label for="Email">Email:</label>
+            <input type="text" placeholder="Your email">
+        </fieldset> <br><br>
+        <fieldset>
+            <legend>Your Review:</legend>
+            <label for="hear">How did you hear about us?:</label>
+            
+            <select name="aboutus" id="aboutus">
+                <option value="google">Google</option>
+                <option value="Youtube">Youtube</option>
+                <option value="Facebook">Facebook</option>
+                <option value="Instagram">Instagram</option>
+            </select>
+            <p>Would you visit again?</p>
+            <input type="radio" name="like" id="yes">
+            <label for="yes">Yes!</label>
+            <input type="radio" name="like" id="no">
+            <label for="no">No!</label>
+            <input type="radio" name="like" id="maybe">
+            <label for="maybe">Maybe!</label>
+            <p>comments</p>
+            <textarea name="Comments" id="text" cols="30" rows="10" placeholder="Comments here..."></textarea> <br><br>
+                <button>
+                     Submit Review
+                </button>
+        </fieldset>
+    </form>
+</body>
+</html>
